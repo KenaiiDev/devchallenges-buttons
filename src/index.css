@@ -1,13 +1,179 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  padding: 0;
+  margin: 0;
+}
+
+div{
+  padding: 0;
+  margin: 0;
+}
+
+.app{
+  padding: 1%;
+}
+
+.button-container{
+  height: fit-content;
+  width: fit-content;
+  margin: 2%;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.button-container span{
+  margin-bottom: 10%;
+}
+
+.buttons-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.button{
+  width: auto;
+  height: auto;
+  padding: 1.5rem 3rem;
+  border-radius: 8px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  background-color: #ccc;
+  transition: all ease-in .2s;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.button span{
+  font-size: 1rem;
+}
+
+.button:hover, .button:focus{
+  background-color: #aaa;
+}
+
+.btn-color-default{
+  color: #ccc;
+  background-color: #ccc;
+  border: 2px solid #ccc;
+}
+
+.btn-color-default:hover, .btn-color-default:focus{
+  background-color: #aaa;
+  border-color: #aaa;
+}
+
+.btn-color-default-hover, .btn-color-default-focus{
+  background-color: #aaa;
+  border-color: #aaa;
+}
+
+.btn-primary{
+  color: #4458c9;
+  background-color: #4458c9;
+  border: 2px solid #4458c9;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+  background-color: #2244ff;
+  border-color: #2244ff;
+}
+
+.btn-primary-hover, .btn-primary-focus{
+  background-color: #2244ff;
+  border-color: #2244ff;
+}
+
+.btn-secondary{
+  color: #5c776b;
+  background-color: #5c776b;
+  border: 2px solid #5c776b;
+}
+
+.btn-secondary:hover, .btn-secondary:focus{
+  background-color: #485547;
+  border-color: #485547;
+}
+
+.btn-secondary-hover, .btn-secondary-focus{
+  background-color: #485547;
+  border-color: #485547;
+}
+
+.btn-danger{
+  color: #b66868;
+  background-color: #b66868;
+  border: 2px solid #b66868;
+}
+
+.btn-danger:hover, .btn-danger:focus{
+  background-color: #7c2626;
+  border-color: #7c2626;
+}
+
+.btn-danger-hover, .btn-danger-focus{
+  background-color: #7c2626;
+  border-color: #7c2626;
+}
+
+.btn-sm{
+  padding: .5rem 1rem;
+}
+
+.btn-md{
+  padding: 1rem 2rem;
+}
+
+.btn-lg{
+  padding: 1.5rem 3rem;
+}
+
+.btn-default{
+  border: none;
+  color: #000!important;
+}
+
+.btn-outline{
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.btn-outline-hover, .btn-outline-focus{
+  background-color: transparent;
+}
+
+.btn-outline:hover, .btn-outline:focus{
+  background-color: transparent;
+}
+
+.btn-text{
+  border: none;
+  background-color: transparent!important;
+  box-shadow: none;
+}
+
+.btn-text:hover, .btn-text:focus{
+  background-color: transparent;
+}
+
+.btn-disable-shadow{
+  box-shadow: none;
+}
+
+.disabled{
+  cursor: not-allowed;
+  color: #777!important;
+  background-color:  #aaa;
+}
+
+.disabled:hover{
+  background-color: #aaa;
+  color: #777;
 }
