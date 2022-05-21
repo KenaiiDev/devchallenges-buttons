@@ -64,5 +64,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://lucasvillanueva.com.ar)
-- GitHub [@your-username](https://{github.com/Lucasv7588})
+- Website [Lucas Villanueva](https://lucasvillanueva.com.ar)
+- GitHub [@Lucasv7588](https://{github.com/Lucasv7588})
